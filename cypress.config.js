@@ -11,6 +11,7 @@ module.exports = defineConfig({
     devServer: {
       framework: "react",
       bundler: "webpack",
+      video: true,
     },
   },
 });
