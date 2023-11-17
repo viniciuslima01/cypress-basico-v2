@@ -149,7 +149,7 @@ describe('Central de Atendimento ao Cliente TAT', () => {
     //   });
   })
 
-  it.only('Utilizando multiplas tab', () => {
+  it('Utilizando multiplas tab', () => {
     cy.get('#privacy a')
       .should('have.attr', 'target', '_blank');
 
